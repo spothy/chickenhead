@@ -1,0 +1,8 @@
+.col {
+  height: 500px;
+  background-color: yellow;
+}
+
+.container-fluid {
+  height: 100vh;
+}
