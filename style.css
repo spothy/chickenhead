@@ -14,7 +14,9 @@ body {
   overflow-y:hidden;
   }
 
-
+.container-fluid {
+  overflow-y: hidden;
+}
 
   #hola-b{
   font-family: 'Kanit', sans-serif;
