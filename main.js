@@ -28,7 +28,7 @@ function password(e) {
       console.log('heellooo');
       } else
       {
-        if (correct.value !== 'zamora')
+        if (correct.value !== 'pijaloca')
         {
           console.log('meh')
 
