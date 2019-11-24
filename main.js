@@ -17,6 +17,8 @@ var posts = document.getElementById('posts');
 var main = document.getElementById('back-list');
 var arrow = document.getElementById('back');
 var body = document.getElementById('cuerpo');
+var mero = document.getElementById('mero');
+
 var postitle = document.getElementsByClassName(".list");
 
 function password(e) {
@@ -69,6 +71,8 @@ function transition2(){
   title.style.display = "none";
   arrow.style.display =" block";
   cuerpo.style.overflowY = "auto";
+  mero.style.overflowY = "auto";
+
 }
 
 function back1(){
