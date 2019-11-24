@@ -34,7 +34,7 @@ function password(e) {
 
         } else
           {
-            background.style.height = "6vh";
+            background.style.height = "10vh";
             correct.style.display="none";
             title.innerHTML = "hola chickenhead";
             title.style.fontSize = "1.2rem";
@@ -78,7 +78,7 @@ function back1(){
 }
 
 function back2(){
-  background.style.height ="6vh";
+  background.style.height ="10vh";
   posts.style.display = "none";
   title.style.display = "block";
   title.innerHTML = "fancy more shitty writing my lady?"
