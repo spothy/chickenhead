@@ -30,7 +30,7 @@ function password(e) {
       console.log('heellooo');
       } else
       {
-        if (correct.value !== 'zamora')
+        if (correct.value !== 'myheart')
         {
           console.log('meh')
 
@@ -95,15 +95,23 @@ function back2(){
 var headline1 = document.getElementById('click1');
 var headline2 = document.getElementById('click2');
 var headline3 = document.getElementById('click3');
+var headline4 = document.getElementById('click4');
+var headline5 = document.getElementById('click5');
 
 headline1.addEventListener("click", displayPost1);
 headline2.addEventListener("click", displayPost2);
 headline3.addEventListener("click", displayPost3);
+headline4.addEventListener("click", displayPost4);
+headline5.addEventListener("click", displayPost5);
+
 
 // select the posts
 var write1 = document.getElementById('post1');
 var write2 = document.getElementById('post2');
 var write3 = document.getElementById('post3');
+var write4 = document.getElementById('post4');
+var write5 = document.getElementById('post5');
+
 
 //display and hide functions.
 
@@ -111,16 +119,39 @@ function displayPost1(){
   write1.style.display = "block";
   write2.style.display = "none";
   write3.style.display = "none";
+  write4.style.display = "none";
+  write5.style.display = "none";
 }
 
 function displayPost2(){
   write1.style.display = "none";
   write2.style.display = "block";
   write3.style.display = "none";
+  write4.style.display = "none";
+  write5.style.display = "none";
 }
 
 function displayPost3(){
   write1.style.display = "none";
   write2.style.display = "none";
   write3.style.display = "block";
+  write4.style.display = "none";
+  write5.style.display = "none";
+}
+
+function displayPost4(){
+  write1.style.display = "none";
+  write2.style.display = "none";
+  write3.style.display = "none";
+  write4.style.display = "block";
+  write5.style.display = "none";
+
+}
+function displayPost5(){
+  write1.style.display = "none";
+  write2.style.display = "none";
+  write3.style.display = "none";
+  write4.style.display = "none";
+  write5.style.display = "block";
+
 }
